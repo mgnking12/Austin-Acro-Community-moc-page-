@@ -37,6 +37,7 @@ hr {
 
 #landing .col-sm-3, fa-phone, fa-hand-o-down {
     display: none;
+    display: inline;
 }
 
 #landing {
@@ -69,6 +70,7 @@ hr {
 }
 
 #landing a {
+    border-radius: 15%;
     margin-top: 50px;
     border: 2px solid #fff;
     padding: 15px;
@@ -148,7 +150,7 @@ padding: 50px;}
 
 #landing .col-sm-3, fa-phone, fa-hand-o-down {
    display: none;
-   
+   display: inline;
 }
 
 
@@ -190,10 +192,12 @@ padding: 50px;}
         width: 500px;
     
     }
-    #phone {content:attr(123-345-5678);
+    #phone {margin-top: 30px;
+        margin-left: 50px;
         text-align: left;
      visibility: visible;}
-    #location {  content:attr("We do our friday jams at Taperstry dance studio, listed below.");
+    #location {
+         margin-left: 50px;
         text-align: left;
      visibility: visible;}
     
